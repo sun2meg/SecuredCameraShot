@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/time_30_sec"
+            android:title="30 seconds"
+            app:actionLayout="@layout/menu_item_with_radio_button" />
+        <item
+            android:id="@+id/time_1_min"
+            android:title="1 minute"
+            app:actionLayout="@layout/menu_item_with_radio_button" />
+        <item
+            android:id="@+id/time_5_min"
+            android:title="5 minutes"
+            app:actionLayout="@layout/menu_item_with_radio_button" />
+        <item
+            android:id="@+id/time_30_min"
+            android:title="30 minutes"
+            app:actionLayout="@layout/menu_item_with_radio_button" />
+        <item
+            android:id="@+id/time_1_hour"
+            android:title="1 hour"
+            app:actionLayout="@layout/menu_item_with_radio_button" />
+    </group>
+</menu>

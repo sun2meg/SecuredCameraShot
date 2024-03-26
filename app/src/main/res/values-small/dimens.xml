@@ -1,0 +1,5 @@
+<!-- res/values-small/dimens.xml -->
+<resources>
+    <dimen name="button_width">100dp</dimen>
+    <dimen name="button_height">30dp</dimen>
+</resources>

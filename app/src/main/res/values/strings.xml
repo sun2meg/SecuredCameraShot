@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SecuredCameraShots</string>
+    <string name="screen1">Check Network</string>
+    <string name="screen2">Grant Permission</string>
+    <string name="screen3">Google\nDrive</string>
+    <string name="screen4">Free\nSpace</string>
+    <string name="screen5">Choose\nAccount</string>
+    <string name="screen6">Capture\n Media</string>
+    <string name="screen7"> File \nProtection</string>
+    <string name="screen8"> View \nFiles</string>
+    <string name="screen1desc">Ensure the device has good internet connection and adequate network data bundle for uploads. </string>
+    <string name="screen2desc">Scroll to SecuredCameraShots on the permission screen and allow \' Appear On Top \' permission for the app to function properly. </string>
+    <string name="screen3desc">It is recommended to install Google Drive app for easier file management.</string>
+    <string name="screen4desc">Ensure there is adequate free space in your Google Drive storage to avoid failure while uploading file.</string>
+    <string name="screen5desc">Choose Google account whose Google Drive will be used to store uploaded media files.  Captured files will be automatically upload to the account\'s Google drive.</string>
+
+    <string name="screen5bdesc">Choose Google account to be used for uploading media files.  Captured files will be automatically upload to the account\'s storage.</string>
+    <string name="startDesc">Create a long video or shorts and upload on youtube. Interact with your subscribers on youtube live.</string>
+    <string name="screen6bdesc">Choose desired option for uploading media file.</string>
+    <string name="screen6desc">Choose desired option for uploading media file to Google Drive.</string>
+    <string name="screen7desc">The folder access is PIN-Protected with a maximum of 3 failed attempts per 10 minutes.\n Only file access is affected by PIN lock.</string>
+    <string name="screen8desc">Choose same email address as logged in user to view the captured files stored in Google Drive.\n Incase of issue accessing the files,logout and login again.".</string>
+
+    <!-- strings.xml -->
+    <string name="video_quality_help_text">High Quality: This setting produces videos with higher resolution and better quality. It results in larger file sizes.\n\nLow Quality: This setting produces videos with lower resolution and reduced quality. It results in smaller file sizes(faster to upload).</string>
+    <string name="contact_us">Email: megacoreapps@gmail.com \n\nPhone Number: +2347049374664.</string>
+
+</resources>

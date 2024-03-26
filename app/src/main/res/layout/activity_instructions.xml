@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <ViewFlipper
+        android:id="@+id/viewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintBottom_toTopOf="@+id/play4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:layout_centerHorizontal="true"
+
+                    android:padding="2dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView"
+                    app:layout_constraintDimensionRatio="h,1:1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/one" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView21"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Choose\nAccount"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Choose Google account whose Google Drive will be used to Media files storage.  Captured files will be automatically upload to account\'s Google drive."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView211"
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:layout_centerHorizontal="true"
+
+                    app:layout_constraintDimensionRatio="h,1:1"
+                    android:padding="2dp"
+                    app:srcCompat="@drawable/two" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView211"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Capture\n Media"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text=" Choose desired option."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction1"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/wrinstuction2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView212"
+                    android:layout_width="500dp"
+                    android:layout_height="500dp"
+                    android:layout_centerHorizontal="true"
+                    app:layout_constraintDimensionRatio="h,1:1"
+                    android:padding="2dp"
+                    app:srcCompat="@drawable/three" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView212"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text=" View \nFiles"
+                    android:textColor="@android:color/white"
+                    android:textSize="50sp" />
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginEnd="25dp"
+                    android:fontFamily="@font/font"
+                    android:gravity="center"
+                    android:text="Choose same email address as logged in user to view the captured files stored in Google Drive.\n Incase of issue accessing the files,logout and login again."
+                    android:textColor="@android:color/white"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wrinstuction2"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dotgray" />
+
+                <ImageView
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dot" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+
+    </ViewFlipper>
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="false"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/backbutton2"
+        android:padding="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrowback" />
+
+    <Button
+        android:id="@+id/play4"
+        android:layout_width="245dp"
+        android:layout_height="79dp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/font"
+        android:onClick="nextView"
+        android:text="CONTINUE"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewFlipper" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Instructions"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_item_quality"
+        android:title="Choose Video Quality">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_item_high_quality"
+                    android:title="High Quality" />
+                <item
+                    android:id="@+id/menu_item_low_quality"
+                    android:title="Low Quality" />
+            </group>
+                <!-- Help item -->
+                <item
+                    android:id="@+id/menu_item_quality_help"
+                    android:title="Help">
+                </item>
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_change_pin"
+        android:orderInCategory="100"
+        android:title="Change PIN"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:title="Contact Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exitapp"
+        android:orderInCategory="100"
+        android:title="Exit App"
+        app:showAsAction="never" />
+</menu>
